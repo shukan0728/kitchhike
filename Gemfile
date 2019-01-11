@@ -60,6 +60,8 @@ gem 'letter_opener_web'
 gem 'rails-i18n', '~> 5.1'
 gem 'devise-i18n'
 
+gem 'coffee-rails', '~> 4.1.0'
+
 group :development do
   gem 'spring'
 
