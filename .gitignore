@@ -21,7 +21,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
 # Ignore Byebug command history file.
 .byebug_history
 
@@ -32,20 +31,13 @@
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
-config/puma.rb
 .env
 erd.pdf
 
 # capistrano
-# Capfile
-# config/deploy/*
+Capfile
+config/deploy/*
 
-/public/*
-!public/404.html
-!public/500.html
-!public/css/*
-!public/ads/*
+/public
 public/assets/*
 public/uploads/*
-.idea
-
